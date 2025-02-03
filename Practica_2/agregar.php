@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add'])) {
     // Guardar los cambios en el archivo
     $materias->asXML('materias.xml');
 
-    // Redireccionar al index
-    header('Location: index.php');
+    // Redireccionar al inicio
+    header('Location: calculadora_cum.php');
     exit;
 }
